@@ -15,5 +15,21 @@ function divide(a,b){
 }
 
 function inc(n){
-  return(n++);
+  n++;
+  return(n);
+}
+
+function dec(n){
+  n--;
+  return(n);
+}
+
+function makeInt(n){
+  n = parseInt(n)
+  return (n);
+}
+
+function perserveDecimal(n){
+  n = parseFloat(n);
+  return(n);
 }
